@@ -36,8 +36,8 @@ trying to do 3 consecutive l or 3 r turns awards the 3rd with -999999(avoid turn
 if previous mone was a turn there is an 0.1 beter chance to go straight.
 ##########################################<br>
 model relu<br> (11,256,3) <br> 100 games
-up until 50~60 games dont last long. the ai is exploring the space.<br>
-from 50~60 the games ussually take the whole time. the ai starts to learn about the apples.<br>
+up until 50 to 60 games dont last long. the ai is exploring the space.<br>
+from 50 to 60 the games ussually take the whole time. the ai starts to learn about the apples.<br>
 using one hidden layer of 256 yielded a  best high score of 41 <br>
 ################################################## <br>
 model relu<br> (11,256,128,3) <br>
