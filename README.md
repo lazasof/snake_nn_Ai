@@ -1,5 +1,6 @@
 # snake_nn_Ai
-from a code camp tutorial messing around with nn architectures, lr, gamma values, epsilon, activation functions and rewards.
+from a freecodecamp tutorial messing around with nn architectures, lr, gamma values, epsilon, activation functions and rewards.<br>
+in general tweaking with parameters yielded better results than tweeking with the model
 <br>
 <br>
 concept #best highscore after 100 games aplying diferent parameters# <br>
@@ -46,6 +47,6 @@ funny this is actually bad because every game takes more time because it times o
 this model needs more parameter choosing, the ai learns extremely fast to avoid walls but is to incentivised to go to the apple<br>
 bad results!<br>
 ################################################## <br>
-as expected the same things happen with leaky rely. In conclusion relu is better 
+as expected the same things happen with leaky rely. In conclusion relu is better(no diyng relu problem)
 
-in later implementations i want to try halmiltonian paths. and maze traversing algorithms. adverserial, generative maybe... and surely genetic!!!!!
+in later implementations i want to try halmiltonian paths. and maze traversing algorithms. generative maybe... and surely genetic!!!!!(any adverserial idea is welcome)
