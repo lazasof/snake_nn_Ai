@@ -43,6 +43,9 @@ model relu<br> (11,256,128,3) <br>
 similar performance<br>
 the agent learns extremely fast that the borders are dangerous 5~10 games<br>
 funny this is actually bad because every game takes more time because it times out.<br>
+this model needs more parameter choosing, the ai learns extremely fast to avoid walls but is to incentivised to go to the apple<br>
+bad results!<br>
+################################################## <br>
+as expected the same things happen with leaky rely. In conclusion relu is better 
 
-
-worst results!
+in later implementations i want to try halmiltonian paths. and maze traversing algorithms. adverserial, generative maybe... and surely genetic!!!!!
