@@ -18,7 +18,7 @@ class Agent:
 		self.epsilon=0 #randomness
 		self.gamma=0.99 #discount rate
 		self.memory = deque(maxlen=MAX_MEMORY) #POPLEFT()
-		self.model=Linear_QNet(11,256,3)
+		self.model=Linear_QNet(11,128,3)
 		self.trainer = 	QTrainer(self.model, lr=LR, gamma= self.gamma)
 		self.last_moves = [] 
 		#TODO: MODEL TRAINER	
